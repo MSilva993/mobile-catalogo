@@ -28,26 +28,35 @@ Antes de rodar o projeto, certifique-se de ter instalado:
   npm install -g expo-cli
   ```
 
-### Extensão de ícones da Expo
+## Extensão de ícones da Expo
 
+```bash
 expo install @expo/vector-icons
+```
 
-### Como executar o projeto
+## Como executar o projeto
 
 Clone o repositório:
 
 git clone https://github.com/MSilva993/mobile-catalogo.git
+
+```bash
 cd catalogo-mobile
+```
 
-### Instale as dependências:
+## Instale as dependências:
 
+```bash
 npm install
+```
 
-### Execute o projeto com Expo:
+## Execute o projeto com Expo:
 
+```bash
 npx expo start
+```
 
-### Abra no navegador (modo web).
+## Abra no navegador (modo web).
 
 Todos os testes e a apresentação foram realizados via web, não utilizamos emulador ou celular.
 
@@ -68,6 +77,7 @@ Todos os testes e a apresentação foram realizados via web, não utilizamos emu
 
 ## Estrutura de pastas
 
+```
 catalogo-mobile/
 ├── app/
 │ ├── login/
@@ -123,3 +133,4 @@ catalogo-mobile/
 ├── AGENTS.md
 ├── package.json
 └── README.md
+```
